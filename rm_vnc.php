@@ -8,7 +8,7 @@ if(php_sapi_name() !== 'cli' && (!array_key_exists('password', $_GET) || $_GET['
  
 $cp_username='RNuser1337';//SoulsVM control panel username
 $cp_password='pasfwdf';//SoulsVM control panel password
-$vps_hostname='newramnode2.tk';//the VM's hostname, exactly as it is named in the control panel's list of VMs on your account.
+$vps_hostname='ramnodesite.com';//the VM's hostname, exactly as it is named in the control panel's list of VMs on your account.
 $ch=hhb_curl_init(array(CURLOPT_TIMEOUT=>20));
 $headers=array();
 $cookies=array();
